@@ -12,4 +12,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+#sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package package/lienol
+git clone src-git kenzo https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone src-git small https://github.com/kenzok8/small package/small
+git clone src-git vlmcsd https://github.com/pexcn/openwrt-vlmcsd package/vlmcsd
+git clone src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic package/unblockneteasemusic
