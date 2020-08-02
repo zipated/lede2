@@ -14,4 +14,3 @@ src-git baidupcs https://github.com/project-openwrt/BaiduPCS-Web
 src-git vlmcsd https://github.com/pexcn/openwrt-vlmcsd
 src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic
 src-git adbybyplus https://github.com/myflavor/luci-app-adbyby-plus
-
