@@ -13,7 +13,8 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package package/lienol
-#git clone src-git kenzo https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone src-git kenzo https://github.com/kenzok8/openwrt-packages package/kenzok8
+git clone https://github.com/kenzok8/small.git package/small
 #git clone src-git vlmcsd https://github.com/pexcn/openwrt-vlmcsd package/vlmcsd
 #git clone src-git unblockneteasemusic https://github.com/project-openwrt/luci-app-unblockneteasemusic package/unblockneteasemusic
 git clone https://github.com/openwrt-dev/po2lmo.git
